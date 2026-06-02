@@ -14,6 +14,7 @@
 		PIBF0005 /* PhotoUtilService.swift in Sources */ = {isa = PBXBuildFile; fileRef = PIFR0005 /* PhotoUtilService.swift */; };
 		PIBF0006 /* PhotoUtilCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = PIPR0002 /* PhotoUtilCore.framework */; };
 		PIBF0007 /* PhotoUtilCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = PIPR0002 /* PhotoUtilCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		PIBF0008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = PIFR0008 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		PIFR0005 /* PhotoUtilService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUtilService.swift; sourceTree = "<group>"; };
 		PIFR0006 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		PIFR0007 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		PIFR0008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		PIPR0001 /* PhotoUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		PIPR0002 /* PhotoUtilCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoUtilCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				PIFR0001 /* PhotoUtilApp.swift */,
 				PIFR0002 /* ContentView.swift */,
 				PIFR0003 /* ImportViewModel.swift */,
+				PIFR0008 /* Assets.xcassets */,
 			);
 			path = PhotoUtil;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildConfigurationList = PICL0001 /* Build configuration list for PBXNativeTarget "PhotoUtil" */;
 			buildPhases = (
 				PISB0001 /* Sources */,
+				PIRB0001 /* Resources */,
 				PIFW0001 /* Frameworks */,
 				PICF0001 /* Embed Frameworks */,
 			);
@@ -192,6 +196,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		PIRB0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PIBF0008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		PISB0001 /* Sources */ = {

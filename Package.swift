@@ -20,7 +20,8 @@ let package = Package(
         .executableTarget(
             name: "PhotoUtil",
             dependencies: ["PhotoUtilCore"],
-            path: "Sources/PhotoUtil"
+            path: "Sources/PhotoUtil",
+            exclude: ["Assets.xcassets"]
         ),
         .executableTarget(
             name: "PhotoUtilChecks",

@@ -24,6 +24,16 @@ swift run PhotoUtil
 
 You can also open `PhotoUtil.xcodeproj` in Xcode and build the `PhotoUtil` scheme.
 
+## Install Locally
+
+Build and install `PhotoUtil.app` from Terminal:
+
+```sh
+scripts/install-local.sh
+```
+
+The script installs into `/Applications` when writable, otherwise it falls back to `~/Applications`.
+
 ## Build a local app bundle
 
 ```sh
@@ -32,6 +42,14 @@ scripts/build-app.sh release
 ```
 
 The generated app is written to `outputs/PhotoUtil.app`.
+
+## Package a Release Zip
+
+```sh
+scripts/package-release.sh
+```
+
+The release archive is written to `dist/PhotoUtil-0.1.0-macOS.zip`.
 
 ## Verify core import behavior
 
