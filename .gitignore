@@ -1,0 +1,9 @@
+.DS_Store
+.build/
+.swiftpm/
+.swift-cache/
+.clang-module-cache/
+DerivedData/
+outputs/
+*.xcuserstate
+xcuserdata/

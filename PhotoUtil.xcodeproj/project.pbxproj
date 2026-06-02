@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		PIBF0001 /* PhotoUtilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = PIFR0001 /* PhotoUtilApp.swift */; };
+		PIBF0002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PIFR0002 /* ContentView.swift */; };
+		PIBF0003 /* ImportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = PIFR0003 /* ImportViewModel.swift */; };
+		PIBF0004 /* ImportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = PIFR0004 /* ImportModels.swift */; };
+		PIBF0005 /* PhotoUtilService.swift in Sources */ = {isa = PBXBuildFile; fileRef = PIFR0005 /* PhotoUtilService.swift */; };
+		PIBF0006 /* PhotoUtilCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = PIPR0002 /* PhotoUtilCore.framework */; };
+		PIBF0007 /* PhotoUtilCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = PIPR0002 /* PhotoUtilCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		PIPX0001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = PIPJ0001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = PINT0002;
+			remoteInfo = PhotoUtilCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		PICF0001 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				PIBF0007 /* PhotoUtilCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		PIFR0001 /* PhotoUtilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUtilApp.swift; sourceTree = "<group>"; };
+		PIFR0002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		PIFR0003 /* ImportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewModel.swift; sourceTree = "<group>"; };
+		PIFR0004 /* ImportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportModels.swift; sourceTree = "<group>"; };
+		PIFR0005 /* PhotoUtilService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUtilService.swift; sourceTree = "<group>"; };
+		PIFR0006 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		PIFR0007 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		PIPR0001 /* PhotoUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		PIPR0002 /* PhotoUtilCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoUtilCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		PIFW0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PIBF0006 /* PhotoUtilCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PIFW0002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		PIGR0001 = {
+			isa = PBXGroup;
+			children = (
+				PIGR0002 /* Sources */,
+				PIFR0006 /* README.md */,
+				PIFR0007 /* LICENSE */,
+				PIGR0005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		PIGR0002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				PIGR0003 /* PhotoUtil */,
+				PIGR0004 /* PhotoUtilCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		PIGR0003 /* PhotoUtil */ = {
+			isa = PBXGroup;
+			children = (
+				PIFR0001 /* PhotoUtilApp.swift */,
+				PIFR0002 /* ContentView.swift */,
+				PIFR0003 /* ImportViewModel.swift */,
+			);
+			path = PhotoUtil;
+			sourceTree = "<group>";
+		};
+		PIGR0004 /* PhotoUtilCore */ = {
+			isa = PBXGroup;
+			children = (
+				PIFR0004 /* ImportModels.swift */,
+				PIFR0005 /* PhotoUtilService.swift */,
+			);
+			path = PhotoUtilCore;
+			sourceTree = "<group>";
+		};
+		PIGR0005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PIPR0001 /* PhotoUtil.app */,
+				PIPR0002 /* PhotoUtilCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		PINT0001 /* PhotoUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = PICL0001 /* Build configuration list for PBXNativeTarget "PhotoUtil" */;
+			buildPhases = (
+				PISB0001 /* Sources */,
+				PIFW0001 /* Frameworks */,
+				PICF0001 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				PITD0001 /* PBXTargetDependency */,
+			);
+			name = PhotoUtil;
+			productName = PhotoUtil;
+			productReference = PIPR0001 /* PhotoUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		PINT0002 /* PhotoUtilCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = PICL0002 /* Build configuration list for PBXNativeTarget "PhotoUtilCore" */;
+			buildPhases = (
+				PISB0002 /* Sources */,
+				PIFW0002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoUtilCore;
+			productName = PhotoUtilCore;
+			productReference = PIPR0002 /* PhotoUtilCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PIPJ0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					PINT0001 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					PINT0002 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = PICL0003 /* Build configuration list for PBXProject "PhotoUtil" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = PIGR0001;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = PIGR0005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				PINT0001 /* PhotoUtil */,
+				PINT0002 /* PhotoUtilCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		PISB0001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PIBF0001 /* PhotoUtilApp.swift in Sources */,
+				PIBF0002 /* ContentView.swift in Sources */,
+				PIBF0003 /* ImportViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PISB0002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PIBF0004 /* ImportModels.swift in Sources */,
+				PIBF0005 /* PhotoUtilService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		PITD0001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = PINT0002 /* PhotoUtilCore */;
+			targetProxy = PIPX0001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		PIBC0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoUtil;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gewoonseba.photoutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		PIBC0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoUtil;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gewoonseba.photoutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		PIBC0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gewoonseba.photoutil.core;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		PIBC0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gewoonseba.photoutil.core;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		PIBC0005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		PIBC0006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PICL0001 /* Build configuration list for PBXNativeTarget "PhotoUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PIBC0001 /* Debug */,
+				PIBC0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		PICL0002 /* Build configuration list for PBXNativeTarget "PhotoUtilCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PIBC0003 /* Debug */,
+				PIBC0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		PICL0003 /* Build configuration list for PBXProject "PhotoUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PIBC0005 /* Debug */,
+				PIBC0006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PIPJ0001 /* Project object */;
+}
